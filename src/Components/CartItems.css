@@ -1,0 +1,11 @@
+.CartItems {
+  background-color: whitesmoke;
+  flex: 0.7; /* is 70% of the Parent div */
+  margin-right: 18px;
+  padding: 20px;
+  text-align: left;
+}
+
+.CartItems h1 {
+  margin-bottom: 20px;
+}

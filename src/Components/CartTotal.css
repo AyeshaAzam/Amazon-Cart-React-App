@@ -1,0 +1,5 @@
+.CartTotal {
+  background-color: whitesmoke;
+  flex: 0.3; /* 30% of the Parent div */
+  padding: 20px;
+}
