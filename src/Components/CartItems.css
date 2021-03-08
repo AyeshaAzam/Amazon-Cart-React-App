@@ -1,5 +1,5 @@
 .CartItems {
-  background-color: whitesmoke;
+  background-color: white;
   flex: 0.7; /* is 70% of the Parent div */
   margin-right: 18px;
   padding: 20px;
