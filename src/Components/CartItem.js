@@ -14,6 +14,11 @@ function CartItem({ item, changeQuantityItem, index, onDelete }) {
   //I saw in one of the projects that if we don't need the
   //first parameter of the function, we can put something like __ , is that right?
 
+  const getTotalPriceOfItems = () => {
+    let sum = 0;
+    return (sum += quantity * price);
+  };
+
   return (
     <div className="CartItem">
       <div className="CartItem-image">
@@ -51,6 +56,8 @@ function CartItem({ item, changeQuantityItem, index, onDelete }) {
         </div>
       </div>
       <div className="CartItem-price">${price}</div>
+      <div className="CartItem-divider">|</div>
+      <div className="CartItem-price">${getTotalPriceOfItems().toFixed(2)}</div>
     </div>
   );
 }

@@ -13,7 +13,7 @@ import "./CartItems.css";
 // }
 
 function CartItems({ items, setCartItems }) {
-  console.log("´Props", items[0].title);
+  console.log("Props", items[0].title);
 
   const changeQuantityItem = (e, index) => {
     console.log("Selected Quantity");
